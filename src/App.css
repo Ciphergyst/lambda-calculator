@@ -1,22 +1,99 @@
-.container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+body {
+    background: rgb(3, 75, 75);
+    padding-top: 40px;
 }
-.display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
+button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border: 0;
+    box-shadow: -2px 3px 2px black;
+}
+
+.calculator-section {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(7, 1, 1);
+    padding: 10px 0px 30px 0px;
+    border-radius: 16px;
+    border: 3px solid black;
+
+}
+.App {
+    padding: 0px 20px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.number-button {
+    background: rgb(32, 32, 180);
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.zero-button {
+    width: 130px;
+    border-radius: 32px;
+}
+
+.special-button {
+    background: rgb(216, 10, 45);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.operator-button {
+    background: rgb(13, 182, 182);
+    color: white;
+}
+
+.equals-button {
+    height: 70px;
+    width: 70px;
+    margin-top: 12px;
+    font-size: 2.2rem;
+    background-color: rgb(13, 182, 182)
+}
+
+.joined-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-bottom: 10px;
+    width: 80px;
+}
+
+.display {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.display input{
+    width: 70%;
+    border-radius: 32px;
+    height: 50px;
+    padding-right: 15px;
+    background: rgb(136, 133, 133);
+    color: white;
+    font-size: 2rem;
+    border: 3px solid black;
+}
